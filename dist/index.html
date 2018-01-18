@@ -6,6 +6,12 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,800|Poiret+One&amp;subset=latin-ext" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" type="text/css" href="./js/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="./js/slick/slick-theme.css"/>
+
         <link rel="stylesheet" href="css/style.min.css">
     </head>
     <body>
@@ -68,7 +74,22 @@
                     </h2>
                 </header>
 
-                <div class="row">
+                <div class="row" id="mainCarousel">
+                    <div class="col">
+                        <div class="box">
+                            <a href="" class="box-photo">
+                                <span class="box-photo-overlay"></span>
+                                <img src="images/img1.png" alt="">
+                            </a>
+                            <h2 class="box-title">
+                                Lorem ipsum sit
+                            </h2>
+                            <div class="box-content">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus recusandae quas similique deserunt
+                            </div>
+                            <a href="" class="btn box-btn">Read more</a>
+                        </div>
+                    </div>
                     <div class="col">
                         <div class="box">
                             <a href="" class="box-photo">
@@ -119,13 +140,37 @@
         </section><!-- e: main articles -->
 
         <section class="main-paralax">
-            <h2 class="main-paralax-title">
-                <span>Love the</span> music
-            </h2>
-            <div class="main-paralax-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, aut.
-                Lorem ipsum dolor sit amet, consectetur
+            <div class="main-paralax-slides-cnt">
+                <div class="main-paralax-slide active">
+                    <h2 class="main-paralax-title">
+                        <span>Love the</span> music 1
+                    </h2>
+                    <div class="main-paralax-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, aut.
+                        Lorem ipsum dolor sit amet, consectetur
+                    </div>
+                </div>
+                <div class="main-paralax-slide">
+                    <h2 class="main-paralax-title">
+                        <span>Love the</span> music 2
+                    </h2>
+                    <div class="main-paralax-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, aut.
+                        Lorem ipsum dolor sit amet, consectetur
+                    </div>
+                </div>
+                <div class="main-paralax-slide">
+                    <h2 class="main-paralax-title">
+                        <span>Love the</span> music 3
+                    </h2>
+                    <div class="main-paralax-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, aut.
+                        Lorem ipsum dolor sit amet, consectetur
+                    </div>
+                </div>
             </div>
+            <!-- <button class="main-paralax-prev">poprzedni</button> -->
+            <!-- <button class="main-paralax-next">nastepny</button> -->
         </section><!-- e: main paralax -->
 
         <section class="main-our-team" id="about-us">
@@ -266,6 +311,10 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChnSCuHz7ERAFFE7soPzoslvCl-tjU1Jc&callback=initMap"></script>
-        <script src="js/script.min.js"></script>
+
+        <script src="./js/slick/slick.min.js"></script>
+
+        <script src="./js/script.min.js"></script>
+
     </body>
 </html>

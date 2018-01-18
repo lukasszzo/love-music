@@ -1,1 +1,2 @@
-# love-music
+# projekt-muzyka
+Przykładowy projekt z warsztatów

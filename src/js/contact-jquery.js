@@ -17,9 +17,12 @@ function contactForm() {
             } else {
                 $inp.removeClass('error');
             }
-        })
+        });
 
         if (!formHasError) {
+            $submit.addClass('loading');
+            $submit.attr('disabled', 'disabled');
+
             $.ajax({
                 url : $form.attr('action'),
                 method : $form.attr('method'),
