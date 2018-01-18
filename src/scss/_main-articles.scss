@@ -1,0 +1,13 @@
+.main-articles {
+    padding:100px 0;
+}
+.main-articles .section-title {
+    margin-bottom:80px;
+}
+
+@media only screen and (max-width:860px) {
+    .main-articles .box {
+        text-align: center;
+        margin:0 auto;
+    }
+}
